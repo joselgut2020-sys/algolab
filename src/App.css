@@ -1,0 +1,170 @@
+
+.app {
+  min-height: 100vh;
+  padding: 40px 20px;
+  text-align: center;
+  background: #101827;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+  color: #60a5fa;
+}
+
+.barras {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 12px;
+  height: 350px;
+  margin: 40px auto;
+}
+
+.barra {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 55px;
+  background: #3b82f6;
+  border-radius: 6px 6px 0 0;
+  padding-bottom: 8px;
+  font-weight: bold;
+  transition: height 0.3s ease;
+}
+
+.controles {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.selector-algoritmo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 24px 0;
+  color: #cbd5e1;
+}
+
+.selector-algoritmo select {
+  padding: 10px 14px;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  background: #1e293b;
+  color: #ffffff;
+  font: inherit;
+}
+
+button {
+  padding: 12px 20px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.estadisticas {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.estadisticas h3 {
+  font-size: 28px;
+  color: #60a5fa;
+  margin-bottom: 5px;
+}
+
+.estadisticas p {
+  color: #94a3b8;
+}
+
+.barra.comparando {
+  background: #f59e0b;
+}
+
+.velocidad {
+  margin-top: 40px;
+}
+
+.velocidad input {
+  width: 250px;
+  cursor: pointer;
+}
+
+.complejidad {
+  max-width: 1100px;
+  margin: 64px auto 24px;
+  text-align: left;
+}
+
+.complejidad h2 {
+  text-align: center;
+}
+
+.complejidad-descripcion,
+.nota-complejidad {
+  color: #94a3b8;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.tabla-complejidad-contenedor {
+  overflow-x: auto;
+  margin-top: 24px;
+  border: 1px solid #334155;
+  border-radius: 10px;
+}
+
+.tabla-complejidad-contenedor table {
+  width: 100%;
+  min-width: 700px;
+  border-collapse: collapse;
+  background: #1e293b;
+}
+
+.tabla-complejidad-contenedor th,
+.tabla-complejidad-contenedor td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #334155;
+  text-align: left;
+}
+
+.tabla-complejidad-contenedor thead th {
+  color: #bfdbfe;
+  font-size: 14px;
+}
+
+.tabla-complejidad-contenedor tbody th {
+  white-space: nowrap;
+}
+
+.tabla-complejidad-contenedor tbody tr:last-child th,
+.tabla-complejidad-contenedor tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.tabla-complejidad-contenedor .algoritmo-seleccionado {
+  background: #1d4ed833;
+  color: #bfdbfe;
+}
+
+.nota-complejidad {
+  margin-top: 14px;
+  font-size: 14px;
+}
