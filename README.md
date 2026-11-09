@@ -2,6 +2,9 @@
 
 AlgoLab es una aplicación web interactiva para aprender cómo funcionan los algoritmos de ordenamiento y los recorridos de grafos. Forma parte de mi **Engineering Roadmap**, una serie de 32 proyectos para practicar fundamentos de programación e ingeniería de software.
 
+- **Demo en vivo:** [algolab en Vercel](https://algolab-jose-gutierrez-s-projects1.vercel.app)
+- **Código fuente:** [joselgut2020-sys/algolab en GitHub](https://github.com/joselgut2020-sys/algolab)
+
 ## Funcionalidades
 
 - Visualización paso a paso de **Bubble Sort**, **Merge Sort** y **Quick Sort**.
